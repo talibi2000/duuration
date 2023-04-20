@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
-import openpyxl
+
 from PIL import Image
 def calcul_emprunt(profil, capital, taux_interet, date_maturite, VALUE_DATE, periodicite):
     dff = pd.read_excel('TCI.xlsx', sheet_name='DATA')
